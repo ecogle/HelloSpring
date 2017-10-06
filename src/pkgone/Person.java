@@ -30,4 +30,8 @@ public abstract class Person {
 		this.age = age;
 	}
 
+	public abstract void eat();
+	public abstract void sleep();
+	public abstract void drive();
+	
 }
