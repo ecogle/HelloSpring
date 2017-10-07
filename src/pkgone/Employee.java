@@ -35,15 +35,5 @@ public class Employee extends Person {
 		System.out.println("Employee eating");
 	}
 
-	@Override
-	public void sleep() {
-		// TODO Auto-generated method stub
-		System.out.println("Employee sleeping");
-	}
-
-	@Override
-	public void drive() {
-		// TODO Auto-generated method stub
-		System.out.println("Employee driving");
-	}
+	
 }
