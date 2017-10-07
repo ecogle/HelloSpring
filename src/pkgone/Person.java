@@ -30,14 +30,8 @@ public abstract class Person {
 		this.age = age;
 	}
 
-	public   void eat(){
-		System.out.println("Eat like a person");
-	}
-	public void sleep(){
-		System.out.println("Person sleeping");
-	}
-	public void drive(){
-		System.out.println("Person driving");
-	}
+	public abstract void eat();
+	public abstract void sleep();
+	public abstract void drive();
 	
 }
